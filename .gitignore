@@ -1,0 +1,23 @@
+# Visual Studio
+.vs/
+
+# .NET build files
+**/bin/
+**/obj/
+
+# User-specific files
+*.user
+*.suo
+
+# SQLite
+*.db
+*.db-shm
+*.db-wal
+
+# Logs
+*.log
+
+# Node / Angular
+node_modules/
+dist/
+.angular/
