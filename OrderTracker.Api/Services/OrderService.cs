@@ -18,7 +18,7 @@ public class OrderService(AppDbContext db)
             .FirstOrDefaultAsync(o => o.Id == id);
     }
 
-    public async Task<Order> CreateAsync(Order order)
+    public async Task<Order> CreateOrderAsync(Order order)
     {
         await db.Orders.AddAsync(order);
         await db.SaveChangesAsync();
